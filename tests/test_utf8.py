@@ -44,6 +44,7 @@ class TestFolder(TestCase):
         in_path = os.path.join(PATH, 'in/folder')
         out_path = os.path.join(PATH, 'out/folder')
 
+        shutil.rmtree(out_path, ignore_errors=True)
         shutil.copytree(in_path, out_path)
 
         sys.argv = [None, out_path]
