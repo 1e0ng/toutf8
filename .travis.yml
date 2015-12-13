@@ -11,8 +11,9 @@ before_install:
   - conda update --yes --quiet conda
 
 install:
-  - conda create --yes -q -n pyenv python=$TRAVIS_PYTHON_VERSION pip nose pyyaml chardet
+  - conda create --yes -q -n pyenv python=$TRAVIS_PYTHON_VERSION pip nose pyyaml
   - source activate pyenv
+  - pip install chardet
 
 script:
   - nosetests
