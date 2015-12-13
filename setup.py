@@ -16,18 +16,4 @@ setup(
             'toutf8=toutf8:main',
         ],
     },
-    classifiers=[
-        'Development Status :: 3 - Alpha',
-
-        'License :: OSI Approved :: Apache',
-
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-    ],
 )
