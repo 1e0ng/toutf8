@@ -24,7 +24,7 @@ def trans_file(file_name):
         if src_enc == des_enc:
             raise Exception
 
-        src_enc = 'GB18030' if src_enc in ('GB2312', 'GBK') else src_enc
+        src_enc = 'GB18030' if src_enc in ('GB2312', 'GBK', 'ISO-8859-2') else src_enc
         padding = ' ' * max((60 - len(file_name)), 0)
         print('%s:%s%s ==> %s' % (file_name, padding, src_enc, des_enc))
 

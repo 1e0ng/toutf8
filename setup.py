@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="toutf8",
-    version="1.3.0",
+    version="1.3.1",
     license='http://www.apache.org/licenses/LICENSE-2.0',
     description="A tool to change all files in specified folder to utf-8 encoding",
     author='1e0n',
